@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+}
+.header{
+  margin-left: 20px;
+  
+}
+.header>h3{
+    text-align: center;
+}
+.day,.hour,.min,.sec{
+    display: inline-block;
+    padding: 20px;
+    background: snow;
+    margin-left: 20px;
+    border-radius: 50%;
+    color: black; 
+    border: 1px solid gray;
+}
